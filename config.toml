@@ -1,0 +1,9 @@
+baseURL = "http://my-site.io/"
+languageCode = "en-us"
+title = "My Wizbang Site"
+theme = "ananke"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"

@@ -1,0 +1,7 @@
+<ul>
+{{ range $.Site.Data.games.board.favorites }}
+  <li>
+    <a href="https://boardgamegeek.com/boardgame/{{.boardGameGeekId}}">{{.name}}</a> - {{.publisher}}
+  </li>
+{{ end }}
+</ul>
